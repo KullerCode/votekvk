@@ -1,0 +1,65 @@
+
+
+body {
+    background-image: url("./flag.jpg");
+    
+}
+
+.banner {
+    align-items: center;
+}
+.vote {
+    font-size: 250%;
+    display: inline;
+}
+
+.gold {
+    color: #a17f1a;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px #a17f1a;
+    font-size: 500%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.blue {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #56A0D3;
+    font-weight: bold;
+    text-align: center;
+    font-size: 250%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.blue2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #56A0D3;
+    font-weight: bold;
+    text-align: center;
+    font-size: 250%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.for {
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+    color: #56A0D3;
+    font-size: 200%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.bwpic {
+    align-items: right;
+    align-content: right;
+    /* display: block; */
+    margin-left: auto;
+    display: inline;
+    right: 0;
+}
