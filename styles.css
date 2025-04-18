@@ -1,15 +1,15 @@
 body {
     position: relative; 
-   
-   /*  width: 100%; 
+   /*
+    width: 100%; 
     display: flex; 
     align-items: center;
-    justify-content: center; */
-  /*  height:100vh; */
+    justify-content: center; 
+    height:100vh;*/
     &::before {
         content: "";
        
-        background-size: cover; 
+      /*  background-size: cover; */
         position: absolute;
         top: 0px;
         right: 0px;
@@ -17,7 +17,7 @@ body {
         left: 0px;
         background-image: url("./flag.jpg");
         background-size: cover; 
-        background-position: top center;
+        background-position: top center; 
         opacity: 0.25;
     }
 }
@@ -93,4 +93,10 @@ body {
 
 p {
     font-size: 200%;
+}
+
+.boldupper {
+    font-weight: bold;
+    font-size: 130%;
+    text-transform: uppercase;
 }
