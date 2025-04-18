@@ -1,16 +1,37 @@
-
-
 body {
-    background-image: url("./flag.jpg");
-    
+    position: relative; 
+   
+   /*  width: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; */
+  /*  height:100vh; */
+    &::before {
+        content: "";
+       
+        background-size: cover; 
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-image: url("./flag.jpg");
+        background-size: cover; 
+        background-position: top center;
+        opacity: 0.25;
+    }
 }
+
+
 
 .banner {
     align-items: center;
+    isolation: isolate;
 }
 .vote {
     font-size: 250%;
     display: inline;
+    isolation: isolate;
 }
 
 .gold {
@@ -21,6 +42,7 @@ body {
     font-size: 500%;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    isolation: isolate;
 }
 
 .blue {
@@ -32,6 +54,7 @@ body {
     font-size: 250%;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    isolation: isolate;
 }
 
 .blue2 {
@@ -43,6 +66,7 @@ body {
     font-size: 250%;
     padding-top: 0px;
     margin-top: 0px;
+    isolation: isolate;
 }
 
 .for {
@@ -53,6 +77,7 @@ body {
     font-size: 200%;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    isolation: isolate;
 }
 
 .bwpic {
@@ -62,4 +87,9 @@ body {
     margin-left: auto;
     display: inline;
     right: 0;
+    isolation: isolate;
+}
+
+p {
+    font-size: 200%;
 }
