@@ -27,6 +27,7 @@ body {
 .banner {
     align-items: center;
     isolation: isolate;
+    text-align: center;
 }
 .vote {
     font-size: 250%;
