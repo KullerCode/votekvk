@@ -47,6 +47,7 @@ body {
 }
 
 .blue {
+    text-transform: uppercase;
     margin-top: 0px;
     padding-top: 0px;
     color: #56A0D3;
@@ -92,11 +93,76 @@ body {
 }
 
 p {
-    font-size: 200%;
+    font-size: 160%;
+    isolation: isolate;
 }
 
 .boldupper {
     font-weight: bold;
     font-size: 130%;
     text-transform: uppercase;
+}
+
+.effective {
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    isolation: isolate;
+    font-size: 160%;
+}
+
+.meet {
+    isolation: isolate;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 160%;
+}
+
+.kvk2 {
+     isolation: isolate; 
+    /* align-content: center;  */
+
+    display: block;
+  margin: auto;
+  width: 50%;
+  
+}
+
+p i {
+    font-size: 160%;
+    isolation: isolate;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+ol {
+    margin-top: 0px;
+    padding-top: 0px;
+    isolation: isolate;
+    font-size: 160%;
+}
+
+li {
+    margin-top: 0px;
+    padding-top: 0px;
+    isolation: isolate;
+    font-size: 160%;
+    font-size: 160%;
+    isolation: isolate;
+
+}
+
+.talkingpoints {
+    text-transform: uppercase;
+}
+
+.point {
+    color: #56A0D3;
+    font-style: italic;
+    text-transform: none;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
 }
