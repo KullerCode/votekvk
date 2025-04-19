@@ -145,15 +145,31 @@ ol {
 li {
     margin-top: 0px;
     padding-top: 0px;
-    isolation: isolate;
-    font-size: 160%;
     font-size: 160%;
     isolation: isolate;
-
 }
+
+.secondli {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 100%;
+    isolation: isolate;
+}
+.specialli {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 100%;
+    isolation: isolate;
+    float: left;
+}
+
 
 .talkingpoints {
     text-transform: uppercase;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 160%;
+    isolation: isolate;
 }
 
 .point {
@@ -166,3 +182,46 @@ li {
     color: red;
     font-weight: bold;
 }
+nav ul {
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    word-spacing: 40px;
+}
+.firstnavli {
+     word-spacing: normal;
+}
+nav ul li {
+    display: inline;
+    font-weight: bold;
+    font-size: 200%;
+    color: white;
+    text-decoration: none;
+}
+nav {
+    background-color: #56A0D3;
+    isolation: isolate;
+    text-decoration: none;
+     align-items: center; 
+    align-content: center;
+}
+
+a{
+   /* pointer-events: none; */
+   /* cursor: default; */
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    background-color: #a17f1a;; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    isolation: isolate;
+  }
