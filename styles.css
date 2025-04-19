@@ -226,3 +226,24 @@ a{
     font-weight: bold;
     isolation: isolate;
   }
+
+  .kvk3 {
+    isolation: isolate; 
+    /* align-content: center;  */
+
+    display: inline;
+  margin: auto;
+  width: 15%;
+  float: right;
+  margin-right: 100px;
+  padding-right: 100px;
+  }
+
+  .kvkfamily {
+    isolation: isolate; 
+    /* align-content: center;  */
+
+    display: inline;
+  margin: auto;
+  width: 35%;
+  }
