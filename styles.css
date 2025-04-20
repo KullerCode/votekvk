@@ -18,7 +18,7 @@ body {
         background-image: url("./flag.jpg");
         background-size: cover; 
          background-position: top center; 
-        opacity: 0.25;
+        opacity: 0.5;
         
     }
 }
@@ -27,8 +27,10 @@ body {
 
 .banner {
     align-items: center;
-    isolation: isolate;
     text-align: center;
+    /* background-color: grey; */
+    isolation: isolate;
+
 }
 .vote {
     font-size: 250%;
@@ -37,10 +39,10 @@ body {
 }
 
 .gold {
-    color: #a17f1a;
+    /* color: #a17f1a; */
     font-weight: bold;
     text-align: center;
-    text-shadow: 1px 1px 1px #a17f1a;
+    /* text-shadow: 1px 1px 1px #a17f1a; */
     font-size: 500%;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -51,7 +53,7 @@ body {
     text-transform: uppercase;
     margin-top: 0px;
     padding-top: 0px;
-    color: #56A0D3;
+    /* color: #56A0D3; */
     font-weight: bold;
     text-align: center;
     font-size: 250%;
@@ -63,7 +65,7 @@ body {
 .blue2 {
     margin-top: 0px;
     padding-top: 0px;
-    color: #56A0D3;
+    /* color: #56A0D3; */
     font-weight: bold;
     text-align: center;
     font-size: 250%;
@@ -76,7 +78,7 @@ body {
     margin-top: 0px;
     padding-top: 0px;
     text-align: center;
-    color: #56A0D3;
+    /* color: #56A0D3; */
     font-size: 200%;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -144,12 +146,19 @@ ol {
     font-size: 160%;
 }
 
-li {
+.homeli li {
     margin-top: 0px;
     padding-top: 0px;
     font-size: 160%;
     isolation: isolate;
 }
+
+li {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 160%;
+    isolation: isolate;
+} 
 
 .secondli {
     margin-top: 0px;
@@ -247,4 +256,19 @@ a {
     display: inline;
   margin: auto;
   width: 35%;
+  }
+
+  /* .contactdiv {
+    background-color: grey;
+    isolation: isolate;
+    /* opacity: ; */
+  /* } */ 
+
+
+  .greybg {
+    background-color: lightblue;
+    isolation: isolate;
+    /* max-width: 50%;
+    align-items: center;
+    align-content: center; */
   }
