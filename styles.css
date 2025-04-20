@@ -18,7 +18,7 @@ body {
         background-image: url("./flag.jpg");
         background-size: cover; 
          background-position: top center; 
-        /* opacity: 0.5; */
+        opacity: 0.5; 
         
     }
 }
@@ -26,7 +26,7 @@ body {
 
 
 .banner {
-    margin-top: 10px;
+    margin-top: 20px;
     align-items: center;
     text-align: center;
     /* background-color: grey; */
@@ -177,7 +177,7 @@ li {
     padding-top: 0px;
     font-size: 100%;
     isolation: isolate;
-    float: left;
+    /*float: left; */
 }
 
 
@@ -231,7 +231,7 @@ a {
 }
 
 .button {
-    background-color: #a17f1a;; /* Green */
+    background-color: green;/* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -294,6 +294,7 @@ a {
     isolation: isolate;
     justify-items: left; 
     justify-content: center;
+    font-size: 110%;
     }
 
     .kvk5 {
@@ -311,4 +312,44 @@ a {
       /* float: center; */
       width: 25%;
     
+    }
+
+    .margintop {
+        margin-top: 20px;
+        
+    }
+
+    .kvkandmom {
+        isolation: isolate;
+        /* align-content: center;  */
+    
+        display: block;
+      margin: auto;
+      width: 30%;
+      margin-bottom: 10px;
+    }
+
+    .bggreyissues {
+        background-color: lightblue;
+        isolation: isolate;
+        justify-items: left; 
+        justify-content: center;
+    }
+
+    .contactform {
+        margin-top: 20px;
+    }
+
+    .firstissue {
+        margin-top: 20px;
+    }
+
+    .expert {
+        /* text-align: center;
+        isolation: isolate;
+        align-items: center;
+        justify-content: center; 
+        align-content: center;  */
+        /* justify-content: center; */
+        justify-items: center;
     }
