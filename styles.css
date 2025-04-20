@@ -18,7 +18,7 @@ body {
         background-image: url("./flag.jpg");
         background-size: cover; 
          background-position: top center; 
-        opacity: 0.5;
+        /* opacity: 0.5; */
         
     }
 }
@@ -26,10 +26,15 @@ body {
 
 
 .banner {
+    margin-top: 10px;
     align-items: center;
     text-align: center;
     /* background-color: grey; */
     isolation: isolate;
+    /* padding-left: 0;
+    padding-right: 0; */
+       /* width: 1000px;
+    margin: auto; */
 
 }
 .vote {
@@ -128,6 +133,7 @@ p {
     display: block;
   margin: auto;
   width: 30%;
+  margin-bottom: 10px;
   
 }
 
@@ -268,7 +274,41 @@ a {
   .greybg {
     background-color: lightblue;
     isolation: isolate;
+    justify-items: center; 
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    /* width: 500px;
+    margin: auto; */
+ 
+    
+    /* justify-content: stretch; */
+    /* background-size: ; */
     /* max-width: 50%;
     align-items: center;
     align-content: center; */
   }
+
+  .greybgexp {
+    background-color: lightblue;
+    isolation: isolate;
+    justify-items: left; 
+    justify-content: center;
+    }
+
+    .kvk5 {
+        /* isolation: isolate; */
+        /* height: auto;
+        width: 200px;
+        align-items: center;
+        align-content: center; */
+
+        isolation: isolate; 
+        /* align-content: center;  */
+    
+        display: block;
+      margin: auto;
+      /* float: center; */
+      width: 25%;
+    
+    }
