@@ -390,7 +390,7 @@ a {
             justify-items: center;
             text-align: center;
             /* display: block; */
-            display: flex;
+            display: block;
             vertical-align: center;
             /* float: ; */
         }
@@ -399,6 +399,7 @@ a {
             align-items: center;
             justify-items: center;
             text-align: center;
+            display: block;
         }
 
         nav li a {
@@ -407,6 +408,7 @@ a {
             align-items: center;
             justify-items: center;
             text-align: center;
+            display: block;
         }
     
         .pipe {
