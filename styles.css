@@ -366,3 +366,7 @@ a {
     .emailfriend {
         color:darkgoldenrod;
     }
+
+    .bigger {
+        font-size: 130%;
+    }
