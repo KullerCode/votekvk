@@ -381,3 +381,19 @@ a {
         justify-items: center;
         justify-content: center;
     } */
+
+    @media screen and (max-width: 1050px) {
+        nav {
+            width: 200px;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+            text-align: center;
+            display: flex;
+            /* float: ; */
+        }
+    
+        .pipe {
+            display: none;
+        }
+    }
