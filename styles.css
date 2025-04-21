@@ -389,12 +389,24 @@ a {
             align-items: center;
             justify-items: center;
             text-align: center;
-            display: block;
+            /* display: block; */
+            display: flex;
+            vertical-align: center;
             /* float: ; */
+        }
+        nav ul li {
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+            text-align: center;
         }
 
         nav li a {
             display: block;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+            text-align: center;
         }
     
         .pipe {
