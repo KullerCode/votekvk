@@ -88,6 +88,14 @@ nav ul li button:hover {
 }
 
 /* IMAGES */
+
+.contact-page .newlogo {
+  display: block;
+  margin: 0 auto 2rem auto; /* center it */
+  max-width: 275px; /* scales it down */
+  height: auto;
+}
+
 .bwpic {
   max-width: 300px;
   width: 100%;
@@ -179,8 +187,6 @@ p, .effective, .meet, p i, ol, li {
   }
 
 }
-
-
 
 
 .kvk-row {
