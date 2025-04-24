@@ -72,25 +72,9 @@
   <link rel="icon" type="image/x-icon" href="./kvkfavicon.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
-  <style>
-    .newlogo {
-      display: block;
-      margin: 2rem auto 1rem;
-      max-width: 200px;
-    }
-    .emailfriend {
-      color: darkgoldenrod;
-    }
-    .bigger {
-      font-size: 1.1rem;
-    }
-    .form-control {
-      margin-bottom: 1rem;
-    }
-    .form-check {
-      margin-bottom: 1rem;
-    }
-  </style>
+
+ 
+
 </head>
 <body>
 
@@ -119,30 +103,56 @@
         I’ll respond as soon as possible. Thank you!
       </p>
 
-      <div class="mb-3">
-        <label class="form-label bigger" for="fname">First Name</label>
-        <input type="text" class="form-control" id="fname" name="fname" placeholder="George">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label class="form-label bigger" for="fname">First Name</label>
+          <input type="text" class="form-control" id="fname" name="fname" placeholder="George">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label class="form-label bigger" for="lname">Last Name</label>
+          <input type="text" class="form-control" id="lname" name="lname" placeholder="Washington">
+        </div>
       </div>
 
-      <div class="mb-3">
-        <label class="form-label bigger" for="lname">Last Name</label>
-        <input type="text" class="form-control" id="lname" name="lname" placeholder="Washington">
-      </div>
 
-      <div class="mb-3">
-        <label class="form-label bigger" for="fulladdress">Full Address</label>
-        <input type="text" class="form-control" id="fulladdress" name="fulladdress" placeholder="1600 Pennsylvania Avenue NW">
+      <div class="row">
+        <div class="col-12 mb-3">
+          <label for="street" class="form-label">Street Address</label>
+          <input type="text" class="form-control" id="street" name="street" placeholder="1600 Pennsylvania Avenue">
+        </div>
       </div>
+      
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control" id="city" name="city" placeholder="Washington">
+          </div>
+        
+          <div class="col-md-4 mb-3">
+            <label for="state" class="form-label">State</label>
+            <input type="text" class="form-control" id="state" name="state" placeholder="D.C.">
+          </div>
+        
+          <div class="col-md-4 mb-3">
+            <label for="zip" class="form-label">ZIP Code</label>
+            <input type="text" class="form-control" id="zip" name="zip" placeholder="20500">
+          </div>
+        </div>
+        
+     
 
-      <div class="mb-3">
-        <label class="form-label bigger" for="phonenumber">Phone Number</label>
-        <input type="text" class="form-control" id="phonenumber" name="phonenumber" placeholder="XXX-XXX-XXXX">
-      </div>
 
-      <div class="mb-3">
-        <label class="form-label bigger" for="email">Email</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="gw@gmail.com">
-      </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label class="form-label bigger" for="phonenumber">Phone Number</label>
+            <input type="text" class="form-control" id="phonenumber" name="phonenumber" placeholder="XXX-XXX-XXXX">
+          </div>
+        
+          <div class="col-md-6 mb-3">
+            <label class="form-label bigger" for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="gw@gmail.com">
+          </div>
+        </div>
 
       <div class="mb-4">
         <label class="form-label bigger" for="message">Message</label>
@@ -150,22 +160,29 @@
       </div>
 
 
+      <div class="row justify-content-center text-center mb-4">
+        <div class="col-md-4">
+          <div class="form-check d-flex justify-content-center align-items-center gap-2">
+            <input type="checkbox" class="form-check-input" id="signup" name="Newsletter" value="Yes" style="transform: scale(1.25);">
+            <label class="form-check-label fs-5" for="signup">Newsletter</label>
+          </div>
+        </div>
       
-      <div class="form-check mb-2">
-        <input type="checkbox" class="form-check-input" id="signup" name="Newsletter" value="Yes">
-        <label class="form-check-label" for="signup">Sign Up For Newsletter</label>
+        <div class="col-md-4">
+          <div class="form-check d-flex justify-content-center align-items-center gap-2">
+            <input type="checkbox" class="form-check-input" id="lawnsign" name="LawnSign" value="Yes" style="transform: scale(1.25);">
+            <label class="form-check-label fs-5" for="lawnsign">Lawn Sign</label>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="form-check d-flex justify-content-center align-items-center gap-2">
+            <input type="checkbox" class="form-check-input" id="volunteer" name="Volunteer" value="Yes" style="transform: scale(1.25);">
+            <label class="form-check-label fs-5" for="volunteer">Volunteer</label>
+          </div>
+        </div>
       </div>
       
-      <div class="form-check mb-2">
-        <input type="checkbox" class="form-check-input" id="lawnsign" name="LawnSign" value="Yes">
-        <label class="form-check-label" for="lawnsign">Lawn Sign</label>
-      </div>
-      
-      <div class="form-check mb-4">
-        <input type="checkbox" class="form-check-input" id="volunteer" name="Volunteer" value="Yes">
-        <label class="form-check-label" for="volunteer">Volunteer</label>
-      </div>
-
 
       <div class="text-center">
         <button type="submit" class="btn button">Submit</button>
