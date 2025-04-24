@@ -102,10 +102,23 @@ nav ul li button:hover {
   border-radius: 8px;
 }
 
+
+.kvk3 {
+  width: 30%;
+  max-width: 250px;
+  border-radius: 8px;
+}
+
+.kvkfamily {
+  width: 38%; /* Slightly larger than before */
+  max-width: 340px; /* Increase to match the size boost */
+  border-radius: 8px;
+}
+
+
 .kvk3, .kvkfamily {
-  float: right;
-  width: 35%;
   margin: 1rem;
+  float: none; /* remove float so flexbox works */
 }
 
 /* HEADINGS */
@@ -152,9 +165,32 @@ p, .effective, .meet, p i, ol, li {
     float: none;
     width: 90%;
     margin: 1rem auto;
+    width: 90%;
+    max-width: none;
   }
 
   .kvk2, .kvk5, .kvkandmom {
     width: 90%;
   }
+
+  .kvk-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
+
+
+
+
+.kvk-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 2rem auto;
+  flex-wrap: wrap; /* Allows stacking on small screens */
+}
+
+
+
