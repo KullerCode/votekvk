@@ -1,10 +1,11 @@
+
 body {
   color: #212529;
   font-family: 'Inter', sans-serif;
 }
 
 /* NAVIGATION BAR */
-nav div ul li a {
+nav ul li a {
   color: white;
 }
 nav {
@@ -12,21 +13,7 @@ nav {
   padding: 1rem 0;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
 
-nav ul li {
-  color: white;
-  display: inline-block;
-  margin: 0 1.5rem;
-  font-size: 1.25rem;
-  font-weight: bold;
-  vertical-align: middle;
-}
 
 nav ul li a {
   color: white !important;
@@ -34,7 +21,6 @@ nav ul li a {
   transition: color 0.3s ease, text-decoration 0.3s ease;
   line-height: 1.5;
 }
-
 
 nav ul li a:hover {
   color: red !important;
@@ -88,11 +74,16 @@ nav ul li button:hover {
 }
 
 /* IMAGES */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 .contact-page .newlogo {
   display: block;
-  margin: 0 auto 2rem auto; /* center it */
-  max-width: 275px; /* scales it down */
+  margin: 0 auto 2rem auto;
+  max-width: 275px;
   height: auto;
 }
 
@@ -110,7 +101,6 @@ nav ul li button:hover {
   border-radius: 8px;
 }
 
-
 .kvk3 {
   width: 30%;
   max-width: 250px;
@@ -118,15 +108,14 @@ nav ul li button:hover {
 }
 
 .kvkfamily {
-  width: 38%; /* Slightly larger than before */
-  max-width: 340px; /* Increase to match the size boost */
+  width: 38%;
+  max-width: 340px;
   border-radius: 8px;
 }
 
-
 .kvk3, .kvkfamily {
   margin: 1rem;
-  float: none; /* remove float so flexbox works */
+  float: none;
 }
 
 /* HEADINGS */
@@ -148,7 +137,7 @@ h4 {
 }
 
 /* TEXT */
-p, .effective, .meet, p i, ol, li {
+p, .effective, .meet, p i {
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
@@ -173,7 +162,6 @@ p, .effective, .meet, p i, ol, li {
     float: none;
     width: 90%;
     margin: 1rem auto;
-    width: 90%;
     max-width: none;
   }
 
@@ -186,8 +174,10 @@ p, .effective, .meet, p i, ol, li {
     align-items: center;
   }
 
+  .kvk-row > * {
+    flex: 1 1 100%;
+  }
 }
-
 
 .kvk-row {
   display: flex;
@@ -195,8 +185,68 @@ p, .effective, .meet, p i, ol, li {
   align-items: flex-start;
   gap: 1rem;
   margin: 2rem auto;
-  flex-wrap: wrap; /* Allows stacking on small screens */
+  flex-wrap: wrap;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-menu {
+  /* display: flex; */
+  list-style: none;
+  padding: 0;
+
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin: 0 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    vertical-align: middle;
+    position: static;
 }
 
 
 
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #003366;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .nav-menu.show {
+    display: flex;
+  }
+
+  .nav-menu li {
+    text-align: center;
+    margin: 1rem 0;
+  }
+}
