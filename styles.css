@@ -94,12 +94,25 @@ img {
   margin: 1rem auto;
 }
 
-.kvk2, .kvk5, .kvkandmom {
+.kvk2, .kvk5, .kvkandmom, .kvkaward, .kvkspeaking {
   display: block;
   margin: 2rem auto;
   width: 30%;
   border-radius: 8px;
 }
+
+ul, ul li {
+  font-size: 1.25rem; /* match your p tag */
+  font-family: 'Inter', sans-serif; /* match your p tag */
+  line-height: 1.5; /* optional, makes it look nicer */
+}
+
+ul, ol li {
+  font-size: 1.25rem; /* match your p tag */
+  font-family: 'Inter', sans-serif; /* match your p tag */
+  line-height: 1.5; /* optional, makes it look nicer */
+}
+
 
 .kvk3 {
   width: 30%;
