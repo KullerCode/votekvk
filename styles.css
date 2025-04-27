@@ -82,7 +82,7 @@ img {
 
 .contact-page .newlogo {
   display: block;
-  margin: 0 auto 2rem auto;
+  margin: 1em auto 2rem auto;
   max-width: 275px;
   height: auto;
 }
@@ -162,6 +162,19 @@ p, .effective, .meet, p i {
 
 .talkingpoints {
   text-transform: uppercase;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+}
+
+
+.kvk-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem; /* spacing between images */
 }
 
 /* RESPONSIVE STYLES */
@@ -190,16 +203,17 @@ p, .effective, .meet, p i {
   .kvk-row > * {
     flex: 1 1 100%;
   }
+
 }
 
-.kvk-row {
+/* .kvk-row {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
   margin: 2rem auto;
   flex-wrap: wrap;
-}
+} */
 
 .nav-container {
   display: flex;
@@ -262,4 +276,10 @@ p, .effective, .meet, p i {
     text-align: center;
     margin: 1rem 0;
   }
+}
+
+.takesstand {
+  color:#003366;
+  margin-top: 1em;
+  
 }
