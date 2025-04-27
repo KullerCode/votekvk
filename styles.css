@@ -203,7 +203,9 @@ p, .effective, .meet, p i {
   .kvk-row > * {
     flex: 1 1 100%;
   }
-
+  .kvkspeaking, .kvkaward {
+    width: 90%;
+  }
 }
 
 /* .kvk-row {
