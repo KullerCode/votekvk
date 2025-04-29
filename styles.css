@@ -94,7 +94,13 @@ img {
   margin: 1rem auto;
 }
 
-.kvk2, .kvk5, .kvkandmom, .kvkaward, .kvkspeaking .keithcunningham {
+.kvk2,
+ .kvk5, 
+ .kvkandmom, 
+ .kvkaward,
+  .kvkspeaking,
+   .keithcunningham 
+   .district7 {
   display: block;
   margin: 2rem auto;
   width: 30%;
