@@ -210,6 +210,10 @@ p, .effective, .meet, p i {
   .kvkspeaking, .kvkaward {
     width: 90%;
   }
+  .nav-menu {
+    text-align: center;
+  }
+
 }
 
 /* .kvk-row {
@@ -238,8 +242,8 @@ p, .effective, .meet, p i {
   cursor: pointer;
 }
 
-.nav-menu {
-  /* display: flex; */
+/* .nav-menu {
+ display: flex;
   list-style: none;
   padding: 0;
 
@@ -251,11 +255,11 @@ p, .effective, .meet, p i {
     font-weight: bold;
     vertical-align: middle;
     position: static;
-}
+} */
 
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
   }
@@ -282,7 +286,7 @@ p, .effective, .meet, p i {
     text-align: center;
     margin: 1rem 0;
   }
-}
+} */
 
 .takesstand {
   color:#003366;
