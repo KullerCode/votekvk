@@ -199,14 +199,6 @@ p, .effective, .meet, p i {
     width: 90%;
   }
 
-  .kvk-row {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .kvk-row > * {
-    flex: 1 1 100%;
-  }
   .kvkspeaking, .kvkaward {
     width: 90%;
   }
@@ -216,14 +208,6 @@ p, .effective, .meet, p i {
 
 }
 
-/* .kvk-row {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1rem;
-  margin: 2rem auto;
-  flex-wrap: wrap;
-} */
 
 .nav-container {
   display: flex;
@@ -242,51 +226,6 @@ p, .effective, .meet, p i {
   cursor: pointer;
 }
 
-/* .nav-menu {
- display: flex;
-  list-style: none;
-  padding: 0;
-
-    text-align: center;
-    color: white;
-    display: inline-block;
-    margin: 0 1.5rem;
-    font-size: 1.25rem;
-    font-weight: bold;
-    vertical-align: middle;
-    position: static;
-} */
-
-
-
-/* @media screen and (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-
-  .nav-menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color: #003366;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 999;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-
-  .nav-menu.show {
-    display: flex;
-  }
-
-  .nav-menu li {
-    text-align: center;
-    margin: 1rem 0;
-  }
-} */
 
 .takesstand {
   color:#003366;
