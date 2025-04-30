@@ -197,10 +197,12 @@ p, .effective, .meet, p i {
 
 /* RESPONSIVE STYLES */
 @media screen and (max-width: 768px) {
-  nav ul li {
+
+
+  /* nav ul li {
     display: block;
     margin: 0.5rem 0;
-  }
+  } */ 
 
   .kvk3, .kvkfamily {
     float: none;
@@ -216,11 +218,49 @@ p, .effective, .meet, p i {
   .kvkspeaking, .kvkaward {
     width: 90%;
   }
+
+
+
   .nav-menu {
     text-align: center;
   }
-
 }
+
+/*
+ @media screen and (max-width: 768px) {
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 60px;  Adjust based on your nav height 
+    right: 1rem;
+    background-color: #003366;
+    padding: 1rem;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+
+
+  .navbar-collapse ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .navbar-nav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+  }
+
+} */
+
+
+
 
 
 .nav-container {
