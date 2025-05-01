@@ -4,6 +4,8 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+
+
 /* NAVIGATION BAR */
 nav ul li a {
   color: white;
@@ -112,6 +114,14 @@ img {
   width: 30%;
   border-radius: 8px;
 }
+
+.district7 {
+  display: block;
+  margin: 2rem auto;
+  width: 60%;
+  border-radius: 8px;
+}
+
 .kvkspeaking {
   display: block;
   margin: 2rem auto;
@@ -236,7 +246,6 @@ p, .effective, .meet, p i {
   }
 
 
-
   .nav-menu {
     text-align: center;
     
@@ -244,6 +253,10 @@ p, .effective, .meet, p i {
 
   .nav-bar-collapse {
     top: 0;
+  } 
+
+  .district7 {
+    width: 100%;
   }
 }
 
