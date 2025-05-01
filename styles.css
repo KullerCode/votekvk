@@ -281,8 +281,8 @@ p, .effective, .meet, p i {
 } */
 
 .libraryphoto {
-  width: 30%;
-  max-width: 250px;
+  width: 90%;
+  max-width: 650px;
   border-radius: 8px;
 }
 
