@@ -218,6 +218,17 @@ p, .effective, .meet, p i {
   text-align: left;
 }
 
+.station,
+.cosmo,
+.boiano,
+.park,
+.davetalking,
+.bareburger,
+.annamaria
+{
+  border-radius: 8px;
+
+}
 
 .kvk-row {
   display: flex;
