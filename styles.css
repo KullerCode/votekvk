@@ -13,7 +13,13 @@ nav {
   padding: 1rem 0;
 }
 
+.address {
+  font-size: 160%;
+}
 
+.emailclass {
+  font-size: 160%;
+}
 
 nav ul li a {
   color: white !important;
@@ -263,8 +269,6 @@ p, .effective, .meet, p i {
   }
 
 } */
-
-
 
 
 
