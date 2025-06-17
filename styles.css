@@ -366,3 +366,18 @@ p, .effective, .meet, p i {
   width: 80%;
   max-width: 400px;
 }
+
+   #countdown {
+      font-size: 4rem;
+      text-align: center;
+      letter-spacing: 0.05em;
+    }
+    .unit {
+      display: inline-block;
+      margin: 0 0.5rem;
+    }
+    .label {
+      display: block;
+      font-size: 1rem;
+      color: #aaa;
+    }
