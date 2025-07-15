@@ -231,10 +231,15 @@ p, .effective, .meet, p i {
 .larchmont,
 .cocmamo,
 .hthall,
-.koc
+.koc,
+.toms
 {
   border-radius: 8px;
 
+}
+
+.toms {
+  width: 40%;
 }
 
 .kvk-row {
