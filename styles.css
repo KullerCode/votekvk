@@ -242,6 +242,10 @@ p, .effective, .meet, p i {
   width: 40%;
 }
 
+.elk {
+  width: 50%;
+}
+
 .kvk-row {
   display: flex;
   flex-direction: column;
