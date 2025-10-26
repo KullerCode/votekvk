@@ -418,3 +418,16 @@ p, .effective, .meet, p i {
       font-size: 1rem;
       color: #aaa;
     }
+
+    .video-container {
+  width: 100%;
+  max-width: 800px; /* optional, limits how wide it gets */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
