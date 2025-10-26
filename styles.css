@@ -431,3 +431,17 @@ p, .effective, .meet, p i {
   height: auto;
   display: block;
 }
+
+
+
+
+/* to fix larger bottom of page*/
+video, img, iframe {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+overflow: hidden;
+}
